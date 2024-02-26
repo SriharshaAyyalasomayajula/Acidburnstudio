@@ -1,8 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/overstock.png";
-import projImg2 from "../assets/img/swiggy.png";
-import projImg3 from "../assets/img/shine.png";
+
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -81,7 +80,7 @@ export const Projects = () => {
                             //   "https://github.com/ramgopalshukla/swiggyclone"
                             // }
                             netlifyHref={
-                              "https://swiggy-clone-akash.netlify.app/"
+                              "https://youtu.be/YCNGchoezlE"
                             }
                           />
                         </Row>
@@ -98,31 +97,14 @@ export const Projects = () => {
                             techStack={[
                               "https://cdn-icons-png.flaticon.com/512/5969/5969347.png"
                             ]}
-                            gitHref={
-                              "https://github.com/web-dev-akash/Team_Shine"
-                            }
-                            netlifyHref={"http://shine-akash.netlify.app/"}
+                            // gitHref={
+                            //   "https://github.com/web-dev-akash/Team_Shine"
+                            // }
+                            netlifyHref={"https://youtu.be/uFLJvtTv4ms"}
                           />
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="fourth">
-                        <Row>
-                          <ProjectCard
-                            imageClass={"proj-tech3"}
-                            heading={"Shine.com (Clone)"}
-                            title="Shine.com is the most innovative and second largest online job portal in India. Founded in 2008, over the past decade, Shine.com has become a prominent name in the recruitment industry."
-                            type={`Team Project | Duration : 1 Week`}
-                            imgUrl={projImg3}
-                            techStack={[
-                              "https://skillicons.dev/icons?i=html,css,js,heroku,,"
-                            ]}
-                            gitHref={
-                              "https://github.com/web-dev-akash/Team_Shine"
-                            }
-                            netlifyHref={"http://shine-akash.netlify.app/"}
-                          />
-                        </Row>
-                      </Tab.Pane>
+                      
                     </Tab.Content>
                   </Tab.Container>
                 </div>
